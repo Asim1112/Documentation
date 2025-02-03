@@ -43,20 +43,21 @@ This project is a fully functional **E-Commerce Marketplace** built with **Next.
 
 ## 📂 **Folder Structure**
 
+The project is organized into the following structured hierarchy:
+
 ```
-📦 project-root/
- ┣ 📁 components/        # UI components (Navbar, Footer, ProductCard, etc.)
- ┣ 📁 pages/             # Next.js pages (Home, Product, Cart, Checkout)
- ┣ 📁 public/            # Static assets (Images, Icons, Fonts)
- ┣ 📁 styles/            # Global styles (Tailwind or custom CSS)
- ┣ 📁 utils/             # Helper functions (API calls, Formatters)
- ┣ 📁 reports/           # Performance reports (Lighthouse, Test Cases CSV)
- ┣ 📄 .env.example       # Environment variables template (API keys hidden)
- ┣ 📄 README.md          # Project documentation
- ┣ 📄 next.config.js     # Next.js configuration
- ┣ 📄 package.json       # Dependencies and scripts
- ┗ 📄 vercel.json        # Vercel deployment configuration
+📦 Documentation/
+ ┣ 📁 Marketplace Technical Foundation - CommerceCore/
+ ┃ ┣ 📁 Day-1/        # Marketplace model & data schema
+ ┃ ┣ 📁 Day-2/        # UI development & frontend setup
+ ┃ ┣ 📁 Day-3/        # Backend & database integration
+ ┃ ┣ 📁 Day-4/        # Shopping cart & checkout
+ ┃ ┣ 📁 Day-5/        # Testing & debugging
+ ┃ ┣ 📁 Day-6/        # Deployment & documentation
+ ┃ ┗ 📁 Day-7/        # Final project submission (if applicable)
 ```
+
+Each day contains relevant files and documentation for easy navigation and tracking.
 
 ---
 
@@ -88,10 +89,10 @@ npm run dev
 
 ## 📊 **Testing Reports & Results**
 - **Functional Testing:** ✅ All key features verified.
-- **Performance Testing:** 🚀 Lighthouse score **95+** (see `/reports/`).
+- **Performance Testing:** 🚀 Lighthouse score **95+** (see `/Documentation/Marketplace Technical Foundation - CommerceCore/Day-6/`).
 - **Security Testing:** 🔒 HTTPS enabled, no vulnerabilities detected.
 
-📌 All test case reports and performance reports are stored in the `/reports/` folder.
+📌 All test case reports and performance reports are stored in the `/Documentation/Marketplace Technical Foundation - CommerceCore/Day-6/` folder.
 
 ---
 
