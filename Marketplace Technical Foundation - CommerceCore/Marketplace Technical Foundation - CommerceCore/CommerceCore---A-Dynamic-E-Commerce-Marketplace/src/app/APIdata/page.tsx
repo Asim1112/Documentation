@@ -12,7 +12,7 @@ import FiltersSearchPagination from "@/components/FiltersSearchPagination";
 import { AddToCart } from "@/components/CartFunctionality";
 import Swal from "sweetalert2";
 
-const page = () => {
+const Page = () => {
   const [product, setProduct] = useState<ProductType[]>([]);
   const [filteredData, setFilteredData] = useState<ProductType[]>([]);
   const [error, setError] = useState<string | null>(null); // ✅ Error state
@@ -110,4 +110,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
